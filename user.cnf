@@ -1,0 +1,11 @@
+[ req ]
+distinguished_name="demo-user-auth"
+prompt="no"
+
+[ demo-user-auth ]
+C="FR"
+ST="France"
+L="Somewhere"
+O="Demo"
+CN="John Doe"
+emailAddress=john.doe@domain.com
