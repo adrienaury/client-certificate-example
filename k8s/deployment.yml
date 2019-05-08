@@ -19,3 +19,4 @@ spec:
         image: front
         ports:
         - containerPort: 80
+        - containerPort: 443
