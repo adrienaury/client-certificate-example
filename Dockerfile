@@ -23,3 +23,5 @@ COPY --from=build user.p12 /usr/local/apache2/htdocs/public/user-certificate.p12
 
 COPY ./index.html /usr/local/apache2/htdocs/index.html
 COPY ./authenticated.html /usr/local/apache2/htdocs/private/index.html
+
+RUN chmod +x /usr/local/apache2/htdocs/index.html
