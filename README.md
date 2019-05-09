@@ -14,10 +14,12 @@ Features
 
 - Public location accessible at /public with instructions to download and install the client certificate
 - Private location accessible at /private to test the client certificate
+- Index page shows all mod_ssl environment variables and their value
+- A HTTP Header is set (or unset) with the current user CN if authenticated correctly (Authenticated-User-Name)
 - Certificates are auto-generated at docker build phase (they will change each time the application is built)
 
 Without skaffold
-------------
+----------------
 
 Build and run the demo :
 
